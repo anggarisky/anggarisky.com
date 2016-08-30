@@ -1,0 +1,165 @@
+@import 'color';
+@import 'font';
+
+.bg-red-primary {
+	background: $red-primary !important;
+}
+
+.blue-primary {
+	color: $blue-primary;
+}
+
+.black-navy {
+	color: $black-navy;
+}
+
+.btn-cta {
+	padding: 15px;
+	background: $blue-primary;
+	color: #fff !important;
+	border-radius: 3px;
+	transition: all 1s;
+	&:hover {
+		background: $black-navy;
+		color: #fff;
+		transition: all 1s;
+		text-decoration: none;
+	}
+}
+
+.btn-cta-red {
+	background: $red-primary;
+	@extend .btn-cta;
+}
+
+.btn-cta-green {
+	background: $green-primary;
+	@extend .btn-cta;
+}
+
+.my-footer {
+	background: $blue-primary;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	.copyright {
+		color: #fff;
+		margin-top: 15px;
+	}
+	.sosmed {
+		li {
+			background: $black-navy;
+			border-radius: 3px;
+			padding: 3px;
+			float: right;
+			margin-left: 10px;
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.my-news {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #f7f7f7;
+	.item-article {
+		margin-bottom: 30px;
+	}
+}
+
+.my-portfolio {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #f7f7f7;
+	.item-work {
+		cursor: pointer;
+		&:hover {
+			.caption {
+				display: inline-block;
+				.btn-lihat-detail {
+				}
+			}
+		}
+		.caption {
+			display: none;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.7);
+			z-index: 10;
+			.btn-lihat-detail {
+				position: absolute;
+				left: 37%;
+				top: 40%;
+				@extend .btn-cta;
+				&:hover {
+					background: $red-primary;
+				}
+			}
+		}
+		// margin-bottom: 30px;
+	}
+	.header-caption {
+		p {
+			margin-bottom: 40px;
+			line-height: 1.8;
+		}
+	}
+}
+
+.banner-home {
+	margin-top: -30px;
+	background: url('../img/bg_banner_home.png');
+	height: 400px;
+	border-bottom: 1px solid #f7f7f7;
+	p {
+		margin-bottom: 40px;
+		line-height: 1.8;
+	}
+}
+
+.navbar-home {
+	margin-top: 20px;
+	background: none;
+	border-radius: 0;
+	border: 0;
+	.logo-home {
+		margin-top: 5px;
+		font-size: 36px;
+		font-family: 'Exo 2', sans-serif;
+		color: $blue-primary;
+		transition: all 1s;
+		&:hover {
+			color: $black-navy;
+			transition: all 1s;
+		}
+	}
+	.navbar-right {
+		margin-top: 10px;
+		li {
+			a {
+				&:hover {
+					color: $blue-primary;
+				}
+				&:focus {
+					color: $blue-primary;
+				}
+			}
+			.btn-cta {
+				margin-left: 10px;
+				padding: 15px;
+				padding-left: 25px;
+				padding-right: 25px;
+				color: #fff !important;
+				border-radius: 3px;
+				transition: all 1s;
+				&:hover {
+					background: $black-navy;
+					color: #fff;
+					transition: all 1s;
+				}
+			}
+		}
+	}
+}

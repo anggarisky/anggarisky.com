@@ -1,76 +1,27 @@
-# Navillera Frontend Boilerplate
+# [Start Bootstrap](http://startbootstrap.com/) - [Bare](http://startbootstrap.com/template-overviews/bare/)
 
-Boilerplate that I used often for my future projects.
+[Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
 
-Included:
-- Project folder structure
-- Bourbon
-- sass-boilerplate
-- Bootstrap responsive mixins
-- Bootstrap
-- jQuery
-- Font Awesome
-- HTML Ipsum
-- Gulp task including :
-    - BrowserSync (autoreload html,css,php)
-    - SASS compile (using node-sass)
-    - CSS Minify
-    - Autoprefixr
-    - Source maps (css)
-    - Image minify
-    - Icon font generator from svg placed in `icons` folder
+## Getting Started
 
-## Note for Gulp Users
-Yeay!! Let the gulp do the magic for you!
-Don por get to install node-js first and `npm install` of course
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/bare/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-bare.git`
+* Fork the repo
 
-## Ideal usage
+## Bugs and Issues
 
-```
-styles/
-|
-|– base/
-|   |– _reset.scss       # Reset/normalize
-|   |– _typography.scss  # Typography rules
-|   …                    # Etc.
-|
-|– components/
-|   |– _buttons.scss     # Buttons
-|   |– _carousel.scss    # Carousel
-|   |– _cover.scss       # Cover
-|   |– _dropdown.scss    # Dropdown
-|   …                    # Etc.
-|
-|– layout/
-|   |– _navigation.scss  # Navigation
-|   |– _grid.scss        # Grid system
-|   |– _header.scss      # Header
-|   |– _footer.scss      # Footer
-|   |– _sidebar.scss     # Sidebar
-|   |– _forms.scss       # Forms
-|   …                    # Etc.
-|
-|– pages/
-|   |– _home.scss        # Home specific styles
-|   |– _contact.scss     # Contact specific styles
-|   …                    # Etc.
-|
-|– themes/
-|   |– _theme.scss       # Default theme
-|   |– _admin.scss       # Admin theme
-|   …                    # Etc.
-|
-|– utils/
-|   |– _variables.scss   # Sass Variables
-|   |– _functions.scss   # Sass Functions
-|   |– _mixins.scss      # Sass Mixins
-|   |– _helpers.scss     # Class & placeholders helpers
-|
-|– vendors/
-|   |– _bootstrap.scss   # Bootstrap
-|   |– _jquery-ui.scss   # jQuery UI
-|   …                    # Etc.
-|
-|
--– main.scss             # Main Sass file
-```
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/bare/).
+
+## Creator
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
