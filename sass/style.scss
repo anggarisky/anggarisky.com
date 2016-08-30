@@ -48,12 +48,18 @@
 	.sosmed {
 		li {
 			background: $black-navy;
-			border-radius: 3px;
+			border: 0;
 			padding: 3px;
 			float: right;
 			margin-left: 10px;
 			a {
 				color: #fff;
+			}
+			&:hover {
+				background: $blue-primary;
+				a {
+					color: $black-navy;
+				}
 			}
 		}
 	}

@@ -35,12 +35,16 @@
     margin-top: 15px; }
   .my-footer .sosmed li {
     background: #082330;
-    border-radius: 3px;
+    border: 0;
     padding: 3px;
     float: right;
     margin-left: 10px; }
     .my-footer .sosmed li a {
       color: #fff; }
+    .my-footer .sosmed li:hover {
+      background: #15A0FF; }
+      .my-footer .sosmed li:hover a {
+        color: #082330; }
 
 .my-news {
   padding-top: 50px;
